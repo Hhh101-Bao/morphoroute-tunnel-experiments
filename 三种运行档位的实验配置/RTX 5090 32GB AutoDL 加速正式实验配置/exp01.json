@@ -1,0 +1,25 @@
+{
+  "allowed_splits": [
+    "D1",
+    "D2",
+    "D3"
+  ],
+  "data_root": "/root/autodl-tmp/铁路隧道多病害实例分割_原始影像严格划分_v1",
+  "experiment_id": "EXP-01",
+  "output_root": "./outputs",
+  "parameters": {
+    "amp": true,
+    "effective_batch": 8,
+    "execute_training": true,
+    "gradient_checkpointing": false,
+    "input_size": 640,
+    "max_updates": 50000,
+    "model": "analysis",
+    "physical_batch": 4,
+    "query_count": 100,
+    "result_status": "autodl_5090_controlled_convergence",
+    "verify_hashes": false
+  },
+  "profile": "autodl_5090_32gb",
+  "seed": 42
+}

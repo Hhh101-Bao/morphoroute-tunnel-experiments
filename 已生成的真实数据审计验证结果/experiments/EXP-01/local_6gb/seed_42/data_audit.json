@@ -1,0 +1,77 @@
+{
+  "annotation_hash_mismatches": [],
+  "class_instances": {
+    "D1": {
+      "crack": 2916,
+      "efflorescence": 2540,
+      "exposed_rebar": 1201,
+      "spalling": 5999,
+      "water_leakage": 957
+    },
+    "D2": {
+      "crack": 588,
+      "efflorescence": 518,
+      "exposed_rebar": 285,
+      "spalling": 1263,
+      "water_leakage": 275
+    },
+    "D3": {
+      "crack": 626,
+      "efflorescence": 537,
+      "exposed_rebar": 267,
+      "spalling": 1221,
+      "water_leakage": 246
+    },
+    "D4": {
+      "crack": 705,
+      "efflorescence": 686,
+      "exposed_rebar": 247,
+      "spalling": 1400,
+      "water_leakage": 380
+    }
+  },
+  "class_positive_images": {
+    "D1": {
+      "crack": 1744,
+      "efflorescence": 1114,
+      "exposed_rebar": 499,
+      "spalling": 2392,
+      "water_leakage": 657
+    },
+    "D2": {
+      "crack": 407,
+      "efflorescence": 276,
+      "exposed_rebar": 138,
+      "spalling": 436,
+      "water_leakage": 172
+    },
+    "D3": {
+      "crack": 408,
+      "efflorescence": 278,
+      "exposed_rebar": 136,
+      "spalling": 433,
+      "water_leakage": 171
+    },
+    "D4": {
+      "crack": 471,
+      "efflorescence": 377,
+      "exposed_rebar": 104,
+      "spalling": 477,
+      "water_leakage": 306
+    }
+  },
+  "cross_split_groups": [],
+  "hash_verification_performed": true,
+  "image_hash_mismatches": [],
+  "missing_annotations": [],
+  "missing_images": [],
+  "passed": true,
+  "split_counts": {
+    "D1": 5050,
+    "D2": 1158,
+    "D3": 1160,
+    "D4": 2002
+  },
+  "total_records": 9370,
+  "unresolved_duplicates": 0
+}

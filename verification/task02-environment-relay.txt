@@ -1,0 +1,28 @@
+Task 02 - Windows to WSL environment relay
+Date: 2026-07-30 Asia/Shanghai
+
+RED:
+python -m unittest tests.test_environment_relay -v
+Result: 5 errors; environments.py and wsl_relay.py did not exist.
+
+GREEN:
+python -m unittest tests.test_environment_relay tests.test_standalone_entries -v
+Result: 12 tests passed.
+
+Syntax:
+python -m compileall -q src scripts experiments tests
+Result: exit code 0.
+
+Machine read-only verification:
+- Installed WSL distribution: Ubuntu, WSL version 2.
+- Distribution release: Ubuntu 26.04 LTS.
+- System Python: 3.14.4.
+- GPU passthrough: NVIDIA GeForce RTX 4050 Laptop GPU, 6141 MiB.
+- Windows C drive free space exposed to WSL: approximately 46 GiB.
+
+Implementation response:
+- Default relay distribution is the actual installed name "Ubuntu".
+- Each environment is installed independently and only when required.
+- Isolated Python 3.10 is provisioned with uv; system Python 3.14 is not modified.
+- Environment locks record exact Python executable, packages, platform, and GPU.
+- --dry-run remains on Windows and never triggers installation.

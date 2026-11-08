@@ -1,0 +1,17 @@
+src/morphoroute/统一评价、预测格式和资源指标/mask_codec.py
+src/morphoroute/统一评价、预测格式和资源指标/schema.py
+src/morphoroute/统一评价、预测格式和资源指标/io.py
+src/morphoroute/统一评价、预测格式和资源指标/pipeline.py
+src/morphoroute/训练适配、断点恢复和资源记录/prediction_shards.py
+src/morphoroute/训练适配、断点恢复和资源记录/mmdet_predictions.py
+src/morphoroute/训练适配、断点恢复和资源记录/mmdet_adapter.py
+工程辅助运行脚本/recover_exp06_b2_postprocess.py
+61 项自动化测试/test_rle_mask_codec.py
+61 项自动化测试/test_prediction_bundle_roundtrip.py
+61 项自动化测试/test_evaluation_pipeline.py
+61 项自动化测试/test_prediction_shards.py
+61 项自动化测试/test_parallel_postprocessing.py
+61 项自动化测试/test_exp06_postprocess_recovery.py
+docs/EXP06_RLE_RECOVERY_PATCH_FILES.txt
+docs/EXP06_RLE_RECOVERY_AUTODL.md
+docs/EXP06_RLE_RECOVERY_VERIFICATION.txt

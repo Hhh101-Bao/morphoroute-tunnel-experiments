@@ -1,0 +1,20 @@
+{
+  "code_revision": null,
+  "config_sha256": "7d8a500684bc9084ce95541efa42ea7e62bd5afc333f8030c597ee456d3177c0",
+  "dataset_manifest_sha256": "431d3ab766f468f0687581c09b8b27984941b320b87ab9c56e1c88436f07f8cf",
+  "experiment_id": "EXP-00",
+  "finished_at_utc": "2026-07-30T08:40:35.108447+00:00",
+  "notes": [],
+  "platform": "Windows-11-10.0.26200-SP0",
+  "produced_outputs": [
+    "analysis_plan.md",
+    "freeze_registry.csv",
+    "preregistration.json"
+  ],
+  "profile": "local_6gb",
+  "python": "3.12.13",
+  "schema_version": 1,
+  "seed": 42,
+  "started_at_utc": "2026-07-30T08:40:35.027517+00:00",
+  "status": "completed"
+}

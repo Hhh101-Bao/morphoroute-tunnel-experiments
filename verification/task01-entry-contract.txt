@@ -1,0 +1,13 @@
+Task: standalone no-argument entry contract
+Date: 2026-07-30
+RED: tests.test_standalone_entries failed because standalone.py and entry main() functions did not exist.
+Additional RED: the extracted desktop project uses Chinese top-level directories,
+so hard-coded experiments/scripts/configs/tests paths could not resolve.
+GREEN command: python -m unittest tests.test_standalone_entries tests.test_cli -v
+GREEN result: 7 tests passed, 0 failures, 0 errors, including Chinese-layout discovery.
+Full regression: python -m unittest discover -s tests -v
+Full regression result: 67 tests passed before Task 02.
+Desktop acceptance:
+python ".\19 个独立实验运行入口\exp05_mask2former.py" --dry-run
+Result: exit code 0; EXP-05 resolved through Chinese entry, script,
+profile-directory, and source-package names.

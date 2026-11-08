@@ -1,0 +1,23 @@
+{
+  "code_revision": null,
+  "config_sha256": "4e15b97fe0744e0e582086c1c7bc99d0d774f465f88cc8bdb982d093b41bb18a",
+  "dataset_manifest_sha256": "431d3ab766f468f0687581c09b8b27984941b320b87ab9c56e1c88436f07f8cf",
+  "experiment_id": "EXP-01",
+  "finished_at_utc": "2026-07-30T08:43:15.235255+00:00",
+  "notes": [
+    "verify_hashes=True"
+  ],
+  "platform": "Windows-11-10.0.26200-SP0",
+  "produced_outputs": [
+    "class_distribution_verified.csv",
+    "data_audit.json",
+    "dataset_hashes.csv",
+    "split_overlap_check.csv"
+  ],
+  "profile": "local_6gb",
+  "python": "3.12.13",
+  "schema_version": 1,
+  "seed": 42,
+  "started_at_utc": "2026-07-30T08:42:43.724429+00:00",
+  "status": "completed"
+}

@@ -1,0 +1,7 @@
+Task 05 - Canonical predictions, metrics, tables, and figures
+Date: 2026-07-30
+RED: 2 import errors for missing evaluation package.
+GREEN: python -m unittest tests.test_evaluation_pipeline tests.test_metrics tests.test_outputs -v
+Result: 8 tests passed.
+Perfect synthetic predictions produced AP50=1, clDice=1, Boundary-F1=1.
+CSV, XLSX, JSON, PNG, and PDF outputs were created.

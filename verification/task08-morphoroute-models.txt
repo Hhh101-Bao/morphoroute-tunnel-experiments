@@ -1,0 +1,7 @@
+Task 08 - MorphoRoute registered model and B0-B11 factory
+Date: 2026-07-30
+RED: 4 import errors for missing runtime models.
+GREEN: python -m unittest tests.test_morphoroute_head tests.test_variant_factory_runtime tests.test_variants tests.test_torch_components -v
+Result: 10 tests passed.
+Matched-query-only targets, structure/route losses, RGB-only inference,
+sparse expert activation, and every B0-B11 runtime configuration were tested.

@@ -1,0 +1,11 @@
+src/morphoroute/训练适配、断点恢复和资源记录/strict_fp32.py
+工程辅助运行脚本/run_exp07_strict_fp32.py
+工程辅助运行脚本/verify_exp07_strict_fp32_checkpoint.py
+工程辅助运行脚本/install_and_launch_exp07_strict_fp32.sh
+61 项自动化测试/test_exp07_strict_fp32_policy.py
+61 项自动化测试/test_exp07_strict_fp32_runner.py
+61 项自动化测试/test_exp07_strict_fp32_shell_contract.py
+docs/EXP07_STRICT_FP32_AUTODL.md
+docs/EXP07_STRICT_FP32_PATCH_FILES.txt
+docs/superpowers/specs/2026-08-21-exp07-strict-fp32-numerical-policy-design.md
+docs/superpowers/plans/2026-08-21-exp07-strict-fp32-numerical-policy.md

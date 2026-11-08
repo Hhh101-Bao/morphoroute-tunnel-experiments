@@ -1,0 +1,6 @@
+Task 07 - MMDetection baselines
+Date: 2026-07-30
+RED: MMDetection config builder and end-to-end function were missing.
+GREEN: python -m unittest tests.test_mmdet_end_to_end tests.test_adapters -v
+Result: 4 tests passed.
+Mask2Former config contains all Runner-required sections and D1/D2/D3 routing.

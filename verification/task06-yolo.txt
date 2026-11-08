@@ -1,0 +1,7 @@
+Task 06 - Real Ultralytics training path
+Date: 2026-07-30
+RED: train_validate_predict_yolo was missing.
+GREEN: python -m unittest tests.test_yolo_end_to_end tests.test_adapters tests.test_experiments_00_07 -v
+Result: 5 tests passed.
+Validated D1 training, D2 best-checkpoint selection contract, D3 prediction,
+optimizer-update to epoch conversion, and evaluation artifacts.

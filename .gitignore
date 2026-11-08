@@ -1,0 +1,36 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.mypy_cache/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ---- 实验产物（正式结果不入库，保留目录约定）----
+outputs/
+logs/
+*.log
+*.pth
+*.pt
+*.ckpt
+*.tar.gz
+*.zip
+*.7z
+
+# ---- 数据集（体积大且受来源许可约束，不入库）----
+datasets/
+data/
+铁路隧道多病害实例分割_原始影像严格划分_v1/
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

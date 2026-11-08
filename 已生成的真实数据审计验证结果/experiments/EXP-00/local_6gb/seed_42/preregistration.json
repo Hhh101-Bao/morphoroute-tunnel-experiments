@@ -1,0 +1,41 @@
+{
+  "bootstrap_unit": "tunnel_section_or_sequence",
+  "development_seeds": [
+    17,
+    42,
+    89
+  ],
+  "effectiveness_gate": {
+    "one_structure_better_other_noninferior": true,
+    "primary_endpoint_required": true,
+    "worst_class_protected": true
+  },
+  "final_seeds": [
+    17,
+    42,
+    89,
+    123,
+    2026
+  ],
+  "mechanism_gate": {
+    "minimum_independent_evidence_types": 2,
+    "requires_gradient_or_performance": true
+  },
+  "primary_endpoint": "D4 combined macro Mask AP",
+  "research_questions": [
+    "RQ1",
+    "RQ2",
+    "RQ3",
+    "RQ4",
+    "RQ5",
+    "RQ6",
+    "RQ7",
+    "RQ8"
+  ],
+  "schema_version": 1,
+  "structure_endpoints": [
+    "crack clDice",
+    "area Boundary-F1"
+  ],
+  "yolo_scope": "RQ1 only; excluded from innovation selection"
+}

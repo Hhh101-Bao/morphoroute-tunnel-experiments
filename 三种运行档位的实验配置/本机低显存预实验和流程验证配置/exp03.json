@@ -1,0 +1,25 @@
+{
+  "allowed_splits": [
+    "D1",
+    "D2",
+    "D3"
+  ],
+  "data_root": "/mnt/c/Users/Baoju/Desktop/铁路隧道多病害实例分割_原始影像严格划分_v1",
+  "experiment_id": "EXP-03",
+  "output_root": "./outputs",
+  "parameters": {
+    "amp": true,
+    "effective_batch": 8,
+    "execute_training": true,
+    "gradient_checkpointing": true,
+    "input_size": 512,
+    "max_updates": 5000,
+    "model": "yolov8n-seg.pt",
+    "physical_batch": 1,
+    "query_count": 50,
+    "result_status": "preexperiment",
+    "verify_hashes": false
+  },
+  "profile": "local_6gb_fallback",
+  "seed": 42
+}

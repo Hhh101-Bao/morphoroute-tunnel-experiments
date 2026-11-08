@@ -1,0 +1,9 @@
+{
+  "supplement_common.py": "5563d19f337ccfbadbdab913b4a1453327009f5ceae5f7a5214dd4f894eb50a0",
+  "resource_measurement.py": "a5dec395d4d3691ed9b99b951b89c67e67e3a33f7163ad4564700737cbc82081",
+  "final_statistics.py": "15b4d66b47032780ebccbe36e1a87da059f9a1197197e1f8a7733b3211f6aa96",
+  "run_supplement.py": "3c94742138f05244cebc4048d004531c1faf7162a127c4d1c5f42084adb20c3e",
+  "launch_supplement.py": "f249f513fde208c2ac67aa6e09eb20f12f5c3b16f619fefd5453ba400c9af971",
+  "test_supplement.py": "68185d11f04a04be8e7d3c8be4206894223533ce9403dc55b60c119ba5e9a5ff",
+  "README.md": "101ea945b99c4cb5259869a59cf18851fada0bdf4da9ba3e403ca23629bc1233"
+}

@@ -1,0 +1,38 @@
+EXP-06 RLE streaming recovery patch verification
+Date: 2026-08-19
+
+Focused regression suite:
+- test_rle_mask_codec.py: 6 passed
+- test_prediction_bundle_roundtrip.py: 4 passed
+- test_evaluation_pipeline.py: 4 passed
+- test_prediction_shards.py: 5 passed
+- test_parallel_postprocessing.py: 2 passed
+- test_exp06_postprocess_recovery.py: 4 passed
+- Total focused tests: 25 passed, 0 failed
+
+Static verification:
+- Python compileall for src and engineering helper scripts: passed
+
+Broader local discovery run:
+- 166 tests discovered
+- 160 passed
+- 6 environment-only errors in the code-inspection snapshot
+- 5 errors require the omitted scripts/setup_wsl.sh file
+- 1 error requires local mmengine/MMDetection
+- No product regression failures were observed
+
+Behavioral guarantees covered by tests:
+- RLE bundle roundtrip and legacy uncompressed-RLE compatibility
+- AP equivalence for dense and RLE masks
+- bounded sharded prediction with strict identity checks and prefix resume
+- GPU inference remains serial while CPU mask encoding is bounded and parallel
+- recovery rejects a dataset fingerprint mismatch
+- recovery postprocess invokes no training
+- completed B2 cache is reused and B3 trains exactly once
+
+AutoDL acceptance still required after upload:
+- archive SHA-256 must pass
+- recovery dry-run must report training_action=forbidden
+- existing B2 checkpoint hashes must remain unchanged
+- recovery audit must report b2_training_invoked=false
+- final EXP-06 run manifest must report completed

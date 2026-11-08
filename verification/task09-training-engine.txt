@@ -1,0 +1,10 @@
+Task 09 - Training stages, resume, PCGrad, diagnostics
+Date: 2026-07-30
+RED: 2 import errors for missing training package.
+GREEN: python -m unittest tests.test_training_engine tests.test_checkpoint_resume tests.test_torch_components -v
+Result: 6 tests passed.
+Checkpoint roundtrip restores model, optimizer, stage, update, and exact RNG hash.
+
+Full regression after Tasks 01-09:
+python -m unittest discover -s tests -v
+Result: 95 tests passed.

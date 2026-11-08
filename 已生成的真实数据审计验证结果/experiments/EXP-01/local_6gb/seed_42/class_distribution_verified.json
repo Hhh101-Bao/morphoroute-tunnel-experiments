@@ -1,0 +1,122 @@
+[
+  {
+    "class_name": "crack",
+    "instances": 2916,
+    "positive_images": 1744,
+    "split": "D1"
+  },
+  {
+    "class_name": "efflorescence",
+    "instances": 2540,
+    "positive_images": 1114,
+    "split": "D1"
+  },
+  {
+    "class_name": "exposed_rebar",
+    "instances": 1201,
+    "positive_images": 499,
+    "split": "D1"
+  },
+  {
+    "class_name": "spalling",
+    "instances": 5999,
+    "positive_images": 2392,
+    "split": "D1"
+  },
+  {
+    "class_name": "water_leakage",
+    "instances": 957,
+    "positive_images": 657,
+    "split": "D1"
+  },
+  {
+    "class_name": "crack",
+    "instances": 588,
+    "positive_images": 407,
+    "split": "D2"
+  },
+  {
+    "class_name": "efflorescence",
+    "instances": 518,
+    "positive_images": 276,
+    "split": "D2"
+  },
+  {
+    "class_name": "exposed_rebar",
+    "instances": 285,
+    "positive_images": 138,
+    "split": "D2"
+  },
+  {
+    "class_name": "spalling",
+    "instances": 1263,
+    "positive_images": 436,
+    "split": "D2"
+  },
+  {
+    "class_name": "water_leakage",
+    "instances": 275,
+    "positive_images": 172,
+    "split": "D2"
+  },
+  {
+    "class_name": "crack",
+    "instances": 626,
+    "positive_images": 408,
+    "split": "D3"
+  },
+  {
+    "class_name": "efflorescence",
+    "instances": 537,
+    "positive_images": 278,
+    "split": "D3"
+  },
+  {
+    "class_name": "exposed_rebar",
+    "instances": 267,
+    "positive_images": 136,
+    "split": "D3"
+  },
+  {
+    "class_name": "spalling",
+    "instances": 1221,
+    "positive_images": 433,
+    "split": "D3"
+  },
+  {
+    "class_name": "water_leakage",
+    "instances": 246,
+    "positive_images": 171,
+    "split": "D3"
+  },
+  {
+    "class_name": "crack",
+    "instances": 705,
+    "positive_images": 471,
+    "split": "D4"
+  },
+  {
+    "class_name": "efflorescence",
+    "instances": 686,
+    "positive_images": 377,
+    "split": "D4"
+  },
+  {
+    "class_name": "exposed_rebar",
+    "instances": 247,
+    "positive_images": 104,
+    "split": "D4"
+  },
+  {
+    "class_name": "spalling",
+    "instances": 1400,
+    "positive_images": 477,
+    "split": "D4"
+  },
+  {
+    "class_name": "water_leakage",
+    "instances": 380,
+    "positive_images": 306,
+    "split": "D4"
+  }
+]

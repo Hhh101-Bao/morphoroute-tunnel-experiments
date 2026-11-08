@@ -1,0 +1,41 @@
+{
+  "allowed_splits": [
+    "D1",
+    "D2",
+    "D3"
+  ],
+  "data_root": "/mnt/e/桌面/铁路隧道多病害实例分割_原始影像严格划分_v1",
+  "experiment_id": "EXP-07",
+  "output_root": "./outputs",
+  "parameters": {
+    "amp": true,
+    "budget_gate": {
+      "enabled": true,
+      "metric": "coco/segm_mAP",
+      "min_delta": 0.001,
+      "patience": 2,
+      "start_update": 30000
+    },
+    "dataloader_workers": 4,
+    "effective_batch": 8,
+    "execute_training": true,
+    "gradient_checkpointing": true,
+    "input_size": 640,
+    "max_updates": 50000,
+    "model": "routing_controls_B4_B5_B6",
+    "performance_mode": true,
+    "physical_batch": 1,
+    "pin_memory": true,
+    "prefetch_factor": 2,
+    "query_count": 64,
+    "release_budget_gate": false,
+    "result_status": "local_validation",
+    "reuse_completed_training": true,
+    "stage_sparse_start": 20000,
+    "stage_warmup_end": 1000,
+    "validation_update_interval": 5000,
+    "verify_hashes": false
+  },
+  "profile": "local_6gb",
+  "seed": 42
+}

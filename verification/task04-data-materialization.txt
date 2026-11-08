@@ -1,0 +1,6 @@
+Task 04 - Hash-addressed YOLO and COCO materialization
+Date: 2026-07-30
+RED: 3 import errors for missing materializers.
+GREEN: python -m unittest tests.test_materialization tests.test_annotations tests.test_manifest -v
+Result: 11 tests passed.
+Hard-link is preferred; copy is the safe fallback. D4 is excluded unless explicitly allowed.
