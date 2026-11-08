@@ -1,6 +1,6 @@
-# MorphoRoute-Tunnel：铁路隧道衬砌多病害实例分割实验工程
+# MorphoRoute-Tunnel：隧道和桥梁衬砌多病害实例分割实验工程
 
-**MorphoRoute-Tunnel** 是一套可审计、可复现的铁路隧道衬砌病害实例分割实验工程：把论文 SOP 拆成 19 个可独立启动的实验入口，共享同一套模型、路由、训练、评价与统计组件，并在数据划分、冻结、一次性外部测试和统计检验上保留完整的证据链。
+**MorphoRoute-Tunnel** 是一套可审计、可复现的隧道和桥梁衬砌病害实例分割实验工程：把论文 SOP 拆成 19 个可独立启动的实验入口，共享同一套模型、路由、训练、评价与统计组件，并在数据划分、冻结、一次性外部测试和统计检验上保留完整的证据链。
 
 > An auditable, reproducible experiment toolkit for railway tunnel lining multi-disease instance segmentation. It splits the paper protocol into 19 standalone experiment entries that share one model / routing / training / evaluation codebase, with hash-audited data splits, a one-shot frozen external test, and paired Bootstrap / Holm statistics.
 
